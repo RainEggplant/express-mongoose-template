@@ -14,16 +14,16 @@ pool:
   vmImage: "ubuntu-latest"
 
 steps:
-  - script: |
-      yarn install
-      yarn compile
-    displayName: "yarn install and compile"
-
   - task: Bash@3
     inputs:
       targetType: "inline"
       script: "echo -e 'APP_ID=express-mongoose-template\nPORT=3000\nLOG_LEVEL=debug\nREQUEST_LIMIT=100kb\nSESSION_SECRET=mySecret\nOPENAPI_SPEC=/api/v1/spec' > .env"
     displayName: "Generate the `.env` file"
+
+  - script: |
+      yarn install
+      yarn compile
+    displayName: "yarn install and compile"
 
   - script: yarn test:junit
     displayName: "yarn test:junit"
