@@ -10,6 +10,7 @@
     "dev:debug": "nodemon --exec \"node -r ts-node/register --inspect-brk\" server/index.ts | pino-pretty",
     "test": "mocha test/**/*.ts --exit",
     "test:debug": "mocha --inspect-brk test/**/*.ts --exit",
+    "test:junit": "mocha test/**/*.ts --reporter mocha-junit-reporter --reporter-options mochaFile=./test/test-results.xml --exit",
     "lint": "tsc --noUnusedLocals --noEmit && prettier -c \"{server,test}/**/*.{ts,tsx}\" --write"
   },
   "dependencies": {
@@ -29,6 +30,7 @@
     "@types/pino": "^5.8.5",
     "chai": "^4.2.0",
     "mocha": "^6.1.4",
+    "mocha-junit-reporter": "^1.23.1",
     "nodemon": "^1.19.0",
     "pino-pretty": "^2.6.1",
     "prettier": "1.18.2",

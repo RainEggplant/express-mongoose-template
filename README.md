@@ -69,6 +69,12 @@ or debug them
 yarn test:debug
 ```
 
+Run the tests and output a JUnit-style XML test results file at `./test/test-results.xml`
+
+```shell
+yarn test:junit
+```
+
 ## Try It
 
 - Open you're browser to [http://localhost:3000](http://localhost:3000)
