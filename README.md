@@ -18,7 +18,7 @@ yarn dev
 # run tests
 yarn test
 
-# fix all linter errors
+# check types and fix all linter errors
 yarn lint
 ```
 
@@ -50,7 +50,7 @@ yarn dev:debug
 
 #### Run in _production_ mode:
 
-Compiles the application and starts it in production production mode.
+Compiles the application and starts it in production mode
 
 ```shell
 yarn compile
@@ -105,7 +105,7 @@ Use the configurations in `.vscode/launch.json` file
 
 ## Lint It
 
-Fix all linter errors
+Check types and fix all linter errors
 
 ```shell
 yarn lint
