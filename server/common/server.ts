@@ -8,6 +8,7 @@ import cookieParser from "cookie-parser";
 import installValidator from "./openapi";
 
 import l from "./logger";
+import morgan from "morgan";
 
 const app = express();
 
@@ -15,6 +16,7 @@ export default class ExpressServer {
   constructor() {
     const root = path.normalize(__dirname + "/../..");
     app.set("appPath", root + "client");
+    app.use(morgan("dev"));
     app.use(express.json({ limit: process.env.REQUEST_LIMIT || "100kb" }));
     app.use(
       express.urlencoded({
