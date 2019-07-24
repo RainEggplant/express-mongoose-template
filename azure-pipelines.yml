@@ -3,6 +3,15 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
+variables:
+  APP_ID: express-mongoose-template
+  PORT: 3000
+  LOG_LEVEL: debug
+  REQUEST_LIMIT: 100kb
+  SESSION_SECRET: mySecret
+  MONGODB_URI_TEST: mongodb://localhost:27017/express-mongoose-template-test
+  OPENAPI_SPEC: /api/v1/spec
+
 trigger:
   - master
 
@@ -10,16 +19,20 @@ pr:
   - master
   - releases/*
 
+resources:
+  containers:
+    - container: mongo
+      image: mongo
+      ports:
+        - 27017:27017
+
 pool:
   vmImage: "ubuntu-latest"
 
-steps:
-  - task: Bash@3
-    inputs:
-      targetType: "inline"
-      script: "echo -e 'APP_ID=express-mongoose-template\nPORT=3000\nLOG_LEVEL=debug\nREQUEST_LIMIT=100kb\nSESSION_SECRET=mySecret\nOPENAPI_SPEC=/api/v1/spec' > .env"
-    displayName: "Generate the `.env` file"
+services:
+  mongo: mongo
 
+steps:
   - script: |
       yarn install
       yarn compile
@@ -33,4 +46,3 @@ steps:
     inputs:
       testRunner: JUnit
       testResultsFiles: "**/test-results.xml"
-    displayName: "Publish test results"
