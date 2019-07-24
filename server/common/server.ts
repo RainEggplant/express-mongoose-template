@@ -1,7 +1,6 @@
 import express from "express";
 import { Application } from "express";
 import path from "path";
-import bodyParser from "body-parser";
 import http from "http";
 import os from "os";
 import cookieParser from "cookie-parser";
@@ -16,9 +15,9 @@ export default class ExpressServer {
   constructor() {
     const root = path.normalize(__dirname + "/../..");
     app.set("appPath", root + "client");
-    app.use(bodyParser.json({ limit: process.env.REQUEST_LIMIT || "100kb" }));
+    app.use(express.json({ limit: process.env.REQUEST_LIMIT || "100kb" }));
     app.use(
-      bodyParser.urlencoded({
+      express.urlencoded({
         extended: true,
         limit: process.env.REQUEST_LIMIT || "100kb"
       })
