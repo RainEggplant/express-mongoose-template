@@ -1,3 +1,4 @@
 --require ts-node/register
 --full-trace
 --timeout 2000
+--file ./test/setup.ts

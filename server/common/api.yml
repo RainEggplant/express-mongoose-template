@@ -32,9 +32,8 @@ paths:
               $ref: "#/components/schemas/ExampleBody"
         required: true
       responses:
-        200:
-          description: Returns all examples
-          content: {}
+        201:
+          description: Example created
   /examples/{id}:
     get:
       tags:
