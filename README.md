@@ -8,7 +8,7 @@ express-mongoose-template
 
 Get started developing...
 
-You need to configure your database at `.env` and set it up.
+You need to create a `.env` file and configure your database at first, then set up the database and start developing / testing.
 
 ```shell
 # install deps
