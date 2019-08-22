@@ -16,7 +16,7 @@
   "dependencies": {
     "bluebird": "^3.5.3",
     "cookie-parser": "^1.4.4",
-    "dotenv": "^8.0.0",
+    "dotenv": "^8.1.0",
     "express": "^4.16.4",
     "express-openapi-validator": "^1.6.1",
     "mongoose": "^5.6.9",
