@@ -1804,7 +1804,7 @@ lodash.merge@^4.6.2:
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
-lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.6.1:
+lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
@@ -2055,13 +2055,13 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://registry.yarnpkg.com/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha512-Yo/7qQU4/EyIS8YDFSeenIvXxZN+ld7YdV9LqFVQJzTLye8unujAWPZ4NWKfFA+RNjh+wvTWKY9Z3E5XM6ZZiQ==
 
-mongoose-sequence@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/mongoose-sequence/-/mongoose-sequence-5.1.0.tgz#24c122ad46db250a80a235cc67c1efac555c78d3"
-  integrity sha512-z17A0BBcVE/Xder0opHDaY2x3hCyuih/iRU2d88kJXtgPP9WxcymV6B5E9PJXsSKdjhevBlP9GLzgvUm1hhtrA==
+mongoose-sequence@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/mongoose-sequence/-/mongoose-sequence-5.2.0.tgz#d6aaac6f1d315f42776b19506409f35b4e100868"
+  integrity sha512-IIRJlID3Ou5Wfq8IfYwMng0fHUdeq8HFbD0RI+3yuAdMKimgprqgfJGgXX67d5CX+w7jC2/8zYpq7FmJwGh4Sg==
   dependencies:
     async "^2.5.0"
-    lodash "^4.6.1"
+    lodash "^4.17.11"
 
 mongoose@^5.6.10:
   version "5.6.10"
