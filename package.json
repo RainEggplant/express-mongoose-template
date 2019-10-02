@@ -31,7 +31,7 @@
     "@types/mocha": "^5.2.6",
     "@types/mongoose": "^5.5.18",
     "@types/morgan": "^1.7.37",
-    "@types/pino": "^5.8.9",
+    "@types/pino": "^5.8.10",
     "chai": "^4.2.0",
     "cross-env": "^6.0.2",
     "mocha": "^6.1.4",
