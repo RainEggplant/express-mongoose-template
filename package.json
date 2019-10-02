@@ -36,7 +36,7 @@
     "cross-env": "^5.2.0",
     "mocha": "^6.1.4",
     "mocha-junit-reporter": "^1.23.1",
-    "nodemon": "^1.19.0",
+    "nodemon": "^1.19.3",
     "pino-pretty": "^3.2.1",
     "prettier": "1.18.2",
     "shelljs": "^0.8.3",
