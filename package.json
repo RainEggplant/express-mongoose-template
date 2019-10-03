@@ -20,7 +20,7 @@
     "express": "^4.16.4",
     "express-openapi-validator": "^1.6.2",
     "mongoose": "^5.7.3",
-    "mongoose-sequence": "^5.2.1",
+    "mongoose-sequence": "^5.2.2",
     "morgan": "^1.9.1",
     "pino": "^5.13.2"
   },
