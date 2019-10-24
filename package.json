@@ -18,7 +18,7 @@
     "cookie-parser": "^1.4.4",
     "dotenv": "^8.2.0",
     "express": "^4.16.4",
-    "express-openapi-validator": "^2.9.0",
+    "express-openapi-validator": "^2.12.1",
     "mongoose": "^5.7.7",
     "mongoose-sequence": "^5.2.2",
     "morgan": "^1.9.1",
