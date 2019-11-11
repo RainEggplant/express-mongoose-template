@@ -25,7 +25,7 @@
     "pino": "^5.13.6"
   },
   "devDependencies": {
-    "@types/bluebird": "^3.5.28",
+    "@types/bluebird": "^3.5.29",
     "@types/chai": "^4.2.4",
     "@types/express": "^4.17.1",
     "@types/mocha": "^5.2.6",
