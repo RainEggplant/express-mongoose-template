@@ -22,7 +22,7 @@
     "mongoose": "^5.7.12",
     "mongoose-sequence": "^5.2.2",
     "morgan": "^1.9.1",
-    "pino": "^5.13.6"
+    "pino": "^5.14.0"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.29",
