@@ -821,13 +821,12 @@ execa@^0.7.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-express-openapi-validator@^2.18.0:
-  version "2.18.0"
-  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-2.18.0.tgz#1e3b9f9567919086e5b8e7d76fbeda1d9b956fc6"
-  integrity sha512-A1pgH4pDxTbJLPh9LxO1uQPA3dFRvloK2lkQrcntQI2Zir3Nhcr5cqrp75334uHgxajjE1Vu5LUR4jx9IQWoIA==
+express-openapi-validator@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.0.2.tgz#539f0f2f49d919d071e43aa74415213772e44be9"
+  integrity sha512-K4k8JexAYZEQNXLz7fP6QUfCXSS45G/eXiFd6elpfhrtItE9z1PZOsgCERb1dbF9mwKkbU2aXm8l/tj3j4VacA==
   dependencies:
     ajv "^6.10.2"
-    deasync "^0.1.16"
     js-yaml "^3.13.1"
     json-schema-ref-parser "^7.1.2"
     lodash "^4.17.15"
@@ -835,6 +834,8 @@ express-openapi-validator@^2.18.0:
     multer "^1.4.2"
     ono "^5.0.1"
     path-to-regexp "^6.0.0"
+  optionalDependencies:
+    deasync "^0.1.16"
 
 express@^4.16.4:
   version "4.17.1"
