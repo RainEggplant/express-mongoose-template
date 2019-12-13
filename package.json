@@ -19,7 +19,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.16.4",
     "express-openapi-validator": "^3.1.2",
-    "mongoose": "^5.8.0",
+    "mongoose": "^5.8.1",
     "mongoose-sequence": "^5.2.2",
     "morgan": "^1.9.1",
     "pino": "^5.14.0"
