@@ -821,10 +821,10 @@ execa@^0.7.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-express-openapi-validator@^3.6.4:
-  version "3.6.4"
-  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.6.4.tgz#08d0f38c08fcc610e8c32cb1a753d287926217ff"
-  integrity sha512-GSlrWAQBmLmgm6G58RHFWSsog+UtP94zRFbf2d/ZseFdsSRhQwv/ikfPbBLY8Es+f6dNHV1zxO1r2JuLxmhTEw==
+express-openapi-validator@^3.6.6:
+  version "3.6.6"
+  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.6.6.tgz#31f65a6c0e905fd605f2c0942ec44a8d681e4278"
+  integrity sha512-JVYgx5moFfqnIK8YhReFeOAocz6UD0T/sAzB/dC5M0OGcjGnq8irB0e2MEKWDaLnDx8huVd7eKnDlDDbhYtdMw==
   dependencies:
     ajv "^6.10.2"
     content-type "^1.0.4"
