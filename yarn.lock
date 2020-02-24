@@ -23,6 +23,11 @@
   resolved "https://registry.yarnpkg.com/@hapi/bourne/-/bourne-1.3.2.tgz#0a7095adea067243ce3283e1b56b8a8f453b242a"
   integrity sha512-1dVNHT76Uu5N3eJNTYcvxee+jzX4Z9lfciqRRHCU27ihbUcYi+iSc2iml5Ke1LXe1SyJCLA0+14Jh4tXJgOppA==
 
+"@jsdevtools/ono@7.0.1":
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/@jsdevtools/ono/-/ono-7.0.1.tgz#7dd55176a94ef4151ac0c030e835e34e7530db99"
+  integrity sha512-cf1bDX0i3NZmTT+iGIvOJ4zqY58RXY6JiBKPSprSKBum2ivBZo5Dy/sqSpx+NYw5EqQlCEYqY0aYxtXoKFH6kg==
+
 "@types/bluebird@^3.5.29":
   version "3.5.29"
   resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.29.tgz#7cd933c902c4fc83046517a1bef973886d00bdb6"
@@ -834,10 +839,10 @@ execa@^0.7.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-express-openapi-validator@^3.7.2:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.7.2.tgz#4bdcd85dd6fc4f8d3f6d3be15b0de63d39e050ea"
-  integrity sha512-4mhYbBvTZn4blAuEowhG8hD/5yD39MEo1Dr/GuyHWlvojl7EEpPm0zc9rMdYVy5jwWofF4kBSxZUvYcbSwePBQ==
+express-openapi-validator@^3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.8.0.tgz#7d889dcdbdbfc16723a99dad1ae2f88256c2057c"
+  integrity sha512-1gWLz6CE39SkTSrtPIinnEoMXBG0hLpm2Ka4ZNpAqAeUQ1K/EKpoZm1xTOt4xLd5FAoDi9Rm1LYfUo41Q5RS9A==
   dependencies:
     ajv "^6.10.2"
     content-type "^1.0.4"
@@ -848,7 +853,7 @@ express-openapi-validator@^3.7.2:
     lodash.zipobject "^4.1.3"
     media-typer "^1.1.0"
     multer "^1.4.2"
-    ono "^6.0.0"
+    ono "^7.0.0"
     path-to-regexp "^6.0.0"
   optionalDependencies:
     deasync "^0.1.16"
@@ -1775,10 +1780,12 @@ ono@^5.1.0:
   resolved "https://registry.yarnpkg.com/ono/-/ono-5.1.0.tgz#8cafa7e56afa2211ad63dd2eb798427e64f1a070"
   integrity sha512-GgqRIUWErLX4l9Up0khRtbrlH8Fyj59A0nKv8V6pWEto38aUgnOGOOF7UmgFFLzFnDSc8REzaTXOc0hqEe7yIw==
 
-ono@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/ono/-/ono-6.0.0.tgz#c0c51b61f6ee56fccd56421620f351de7e8e3200"
-  integrity sha512-vhx50giT0dDBLYYXwKU/tuNsT6CwPzGZmd6yypPsXrkq+ujT0lX0q4tvMQ/5jxM6HKntk7p3N51Ts0fD8qL5dA==
+ono@^7.0.0:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/ono/-/ono-7.0.1.tgz#335541dcb72a2b44480f9cad29285c4c4cdb078f"
+  integrity sha512-pbH3hw9npk+tvcq7kMdp4TiILwIKBa36z2mEyHeMfuDNsW18qPp8q0Z1o7TqLLV7wNJ2iQFP9r6dc+CQIJPe2g==
+  dependencies:
+    "@jsdevtools/ono" "7.0.1"
 
 optimist@~0.6.0:
   version "0.6.1"
