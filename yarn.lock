@@ -2,6 +2,15 @@
 # yarn lockfile v1
 
 
+"@apidevtools/json-schema-ref-parser@8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@apidevtools/json-schema-ref-parser/-/json-schema-ref-parser-8.0.0.tgz#9eb749499b3f8d919e90bb141e4b6f67aee4692d"
+  integrity sha512-n4YBtwQhdpLto1BaUCyAeflizmIbaloGShsPyRtFf5qdFJxfssj+GgLavczgKJFa3Bq+3St2CKcpRJdjtB4EBw==
+  dependencies:
+    "@jsdevtools/ono" "^7.1.0"
+    call-me-maybe "^1.0.1"
+    js-yaml "^3.13.1"
+
 "@babel/code-frame@^7.0.0":
   version "7.5.5"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.5.5.tgz#bc0782f6d69f7b7d49531219699b988f669a8f9d"
@@ -23,10 +32,10 @@
   resolved "https://registry.yarnpkg.com/@hapi/bourne/-/bourne-1.3.2.tgz#0a7095adea067243ce3283e1b56b8a8f453b242a"
   integrity sha512-1dVNHT76Uu5N3eJNTYcvxee+jzX4Z9lfciqRRHCU27ihbUcYi+iSc2iml5Ke1LXe1SyJCLA0+14Jh4tXJgOppA==
 
-"@jsdevtools/ono@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@jsdevtools/ono/-/ono-7.0.1.tgz#7dd55176a94ef4151ac0c030e835e34e7530db99"
-  integrity sha512-cf1bDX0i3NZmTT+iGIvOJ4zqY58RXY6JiBKPSprSKBum2ivBZo5Dy/sqSpx+NYw5EqQlCEYqY0aYxtXoKFH6kg==
+"@jsdevtools/ono@7.1.1", "@jsdevtools/ono@^7.1.0":
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/@jsdevtools/ono/-/ono-7.1.1.tgz#36034f9cb0fb456858c137a3f3e6d6db67ab5cc5"
+  integrity sha512-pu5fxkbLQWzRbBgfFbZfHXz0KlYojOfVdUhcNfy9lef8ZhBt0pckGr8g7zv4vPX4Out5vBNvqd/az4UaVWzZ9A==
 
 "@types/bluebird@^3.5.30":
   version "3.5.30"
@@ -645,10 +654,10 @@ dateformat@^3.0.3:
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-3.0.3.tgz#a6e37499a4d9a9cf85ef5872044d62901c9889ae"
   integrity sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==
 
-deasync@^0.1.16:
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/deasync/-/deasync-0.1.16.tgz#44195eb4330fc9fc487f31ec614cbbdd57633897"
-  integrity sha512-FNCjDwxGbhK+Ye8fmE3p2ahIjERhkbuwX+WVGZPtSbAh9LfE1Saa2p0l+f0t11sIlk9D8W+Bym+cDp6r5yghAQ==
+deasync@^0.1.19:
+  version "0.1.19"
+  resolved "https://registry.yarnpkg.com/deasync/-/deasync-0.1.19.tgz#e7ea89fcc9ad483367e8a48fe78f508ca86286e8"
+  integrity sha512-oh3MRktfnPlLysCPpBpKZZzb4cUC/p0aA3SyRGp15lN30juJBTo/CiD0d4fR+f1kBtUQoJj1NE9RPNWQ7BQ9Mg==
   dependencies:
     bindings "^1.5.0"
     node-addon-api "^1.7.1"
@@ -834,24 +843,24 @@ execa@^0.7.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-express-openapi-validator@^3.9.5:
-  version "3.9.5"
-  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.9.5.tgz#94183b1c2a689a0e7a7d16cdcbaa135f1d566802"
-  integrity sha512-26TTQXmwAXhiD9NbxZszaxTTQl1J56r6WwxT0mDh9Td4Bb6n1no5/GsSGXIBvnhjHwbhl4ldWl1nMHLyVnsnDA==
+express-openapi-validator@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.10.0.tgz#e7435ad28e9a2face4e7ea87206f5a7eccbd5659"
+  integrity sha512-+vNPS00ajussUlZZGJsbdUXOHp/hToF72mD5gfZ6zTcYilNHb7DaDEzmTm5/Y1gI86AO0IXNxZVpmZYw6LEkVw==
   dependencies:
     ajv "^6.12.0"
     content-type "^1.0.4"
     js-yaml "^3.13.1"
-    json-schema-ref-parser "^7.1.2"
+    json-schema-ref-parser "^8.0.0"
     lodash.merge "^4.6.2"
     lodash.uniq "^4.5.0"
     lodash.zipobject "^4.1.3"
     media-typer "^1.1.0"
     multer "^1.4.2"
-    ono "^7.0.0"
-    path-to-regexp "^6.0.0"
+    ono "^7.1.1"
+    path-to-regexp "^6.1.0"
   optionalDependencies:
-    deasync "^0.1.16"
+    deasync "^0.1.19"
 
 express@^4.16.4:
   version "4.17.1"
@@ -1354,14 +1363,12 @@ js-yaml@3.13.1, js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-json-schema-ref-parser@^7.1.2:
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/json-schema-ref-parser/-/json-schema-ref-parser-7.1.2.tgz#b0b324a7453d4102a271ca23cbc18c9d0d187062"
-  integrity sha512-bi2Nns2UqdX7wThX5qSHd+lOxlu9oeJvlCnWGuR3qS4Ex4UZtuwygkyq/43J31GuNGX8xBHeV6zjQztYk/G5VA==
+json-schema-ref-parser@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/json-schema-ref-parser/-/json-schema-ref-parser-8.0.0.tgz#7c758fac2cf822c05e837abd0a13f8fa2c15ffd4"
+  integrity sha512-2P4icmNkZLrBr6oa5gSZaDSol/oaBHYkoP/8dsw63E54NnHGRhhiFuy9yFoxPuSm+uHKmeGxAAWMDF16SCHhcQ==
   dependencies:
-    call-me-maybe "^1.0.1"
-    js-yaml "^3.13.1"
-    ono "^5.1.0"
+    "@apidevtools/json-schema-ref-parser" "8.0.0"
 
 json-schema-traverse@^0.4.1:
   version "0.4.1"
@@ -1770,17 +1777,12 @@ once@^1.3.0, once@^1.3.1, once@^1.4.0:
   dependencies:
     wrappy "1"
 
-ono@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/ono/-/ono-5.1.0.tgz#8cafa7e56afa2211ad63dd2eb798427e64f1a070"
-  integrity sha512-GgqRIUWErLX4l9Up0khRtbrlH8Fyj59A0nKv8V6pWEto38aUgnOGOOF7UmgFFLzFnDSc8REzaTXOc0hqEe7yIw==
-
-ono@^7.0.0:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/ono/-/ono-7.0.1.tgz#335541dcb72a2b44480f9cad29285c4c4cdb078f"
-  integrity sha512-pbH3hw9npk+tvcq7kMdp4TiILwIKBa36z2mEyHeMfuDNsW18qPp8q0Z1o7TqLLV7wNJ2iQFP9r6dc+CQIJPe2g==
+ono@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/ono/-/ono-7.1.1.tgz#38dc33bd8dfc016a47b7b16a7241be633822d382"
+  integrity sha512-k7lbQdKDAjJ+022kB2I3ONAWvnjI/KnfdvKzCatERyUcCwedrTECcUBa8WMEbXrFc7tAhfurMXJE1oZkK+2XLg==
   dependencies:
-    "@jsdevtools/ono" "7.0.1"
+    "@jsdevtools/ono" "7.1.1"
 
 optimist@~0.6.0:
   version "0.6.1"
@@ -1864,7 +1866,7 @@ path-to-regexp@0.1.7:
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
 
-path-to-regexp@^6.0.0:
+path-to-regexp@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-6.1.0.tgz#0b18f88b7a0ce0bfae6a25990c909ab86f512427"
   integrity sha512-h9DqehX3zZZDCEm+xbfU0ZmwCGFCAAraPJWMXJ4+v32NjZJilVg3k1TcKsRgIb8IQ/izZSaydDc1OhJCZvs2Dw==
