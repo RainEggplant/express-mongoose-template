@@ -912,14 +912,14 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
-express-openapi-validator@^3.14.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.14.0.tgz#cd10e8c072a7afb76a8ee64a7814771e21fa039b"
-  integrity sha512-nveAc/ivtEQP3YPoqauIwqkcBNt/UNNAs7C+7DJ4qNSTLp3Bj3BjeRQHZ3jUgTF4BHrj3vnVLepGXbRXnTUg4w==
+express-openapi-validator@^3.14.1:
+  version "3.14.1"
+  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.14.1.tgz#34342196721c6922fb54db71d7c6a88f751157c4"
+  integrity sha512-iVaB30hvGch3Ml7/5xSQuX2uGXOx+wkBSOeKtxcD5v0lwm9Zco7jHwRTH8C4lEWizXicVtj7L1PuugROzLWoSw==
   dependencies:
     ajv "^6.12.2"
     content-type "^1.0.4"
-    js-yaml "^3.13.1"
+    js-yaml "^3.14.0"
     json-schema-ref-parser "^8.0.0"
     lodash.merge "^4.6.2"
     lodash.uniq "^4.5.0"
@@ -1446,10 +1446,18 @@ js-tokens@^4.0.0:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-js-yaml@3.13.1, js-yaml@^3.13.1:
+js-yaml@3.13.1:
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
   integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^4.0.0"
+
+js-yaml@^3.13.1, js-yaml@^3.14.0:
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.0.tgz#a7a34170f26a21bb162424d8adacb4113a69e482"
+  integrity sha512-/4IbIeHcD9VMHFqDR/gQ7EdZdLimOvW2DdcxFjdyyZ9NsbS+ccrXqVWDtab/lRl5AlUqmpBx8EhPaWR+OtY17A==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
