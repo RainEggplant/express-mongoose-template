@@ -912,10 +912,10 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
-express-openapi-validator@^3.15.0:
-  version "3.15.0"
-  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.15.0.tgz#08a30946fa21d08502878fe91603ed9807867597"
-  integrity sha512-F7bMbtQEBN6yS9yDySgc1uKNL1sRzfy4NWdaQFYcw28hzyFkPTqr19vzhiU7+cSJ1iGUjfYkrIHwpQUsaq0ylw==
+express-openapi-validator@^3.15.1:
+  version "3.15.1"
+  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.15.1.tgz#ab58d217770609aa4a24ec497ce448e5f428213b"
+  integrity sha512-Uj15rPCzoqdls7zXXFGNE/yADmogBt8xuK49ka7EOBok6mRIrfIjaCA1GSP7vlzGZ13t+xAKXvRbVByJFuhacQ==
   dependencies:
     ajv "^6.12.2"
     content-type "^1.0.4"
