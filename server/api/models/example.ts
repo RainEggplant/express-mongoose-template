@@ -11,10 +11,10 @@ export interface IExampleModel extends mongoose.Document {
 const schema = new mongoose.Schema(
   {
     id: { type: Number, unique: true },
-    name: String
+    name: String,
   },
   {
-    collection: "examples"
+    collection: "examples",
   }
 );
 

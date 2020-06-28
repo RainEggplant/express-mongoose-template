@@ -14,7 +14,7 @@ describe("Examples", () => {
     request(Server)
       .get("/api/v1/examples/1")
       .expect("Content-Type", /json/)
-      .then(r => {
+      .then((r) => {
         expect(r.body)
           .to.be.an("object")
           .that.has.property("name")
@@ -25,9 +25,7 @@ describe("Examples", () => {
     request(Server)
       .get("/api/v1/examples")
       .expect("Content-Type", /json/)
-      .then(r => {
-        expect(r.body)
-          .to.be.an("array")
-          .of.length(1);
+      .then((r) => {
+        expect(r.body).to.be.an("array").of.length(1);
       }));
 });

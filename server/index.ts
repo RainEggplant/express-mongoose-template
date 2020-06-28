@@ -14,7 +14,4 @@ const connectionString =
       "mongodb://localhost:27017/express-mongoose-template-test";
 
 const db = new Database(connectionString);
-export default new Server()
-  .database(db)
-  .router(routes)
-  .listen(port);
+export default new Server().database(db).router(routes).listen(port);

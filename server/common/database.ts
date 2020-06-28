@@ -18,15 +18,16 @@ export default class Database implements IDatabase {
     mongoose
       .connect(this.connectionString, {
         useNewUrlParser: true,
+        useUnifiedTopology: true,
         useCreateIndex: true,
         useFindAndModify: false,
         user: process.env.DB_USER,
-        pass: process.env.DB_PASS
+        pass: process.env.DB_PASS,
       })
       .then(() => {
         l.info("Database connected.");
       })
-      .catch(err => {
+      .catch((err) => {
         l.error(
           "MongoDB connection error. Please make sure MongoDB is running.\n" +
             err
@@ -36,6 +37,6 @@ export default class Database implements IDatabase {
 
     const db = mongoose.connection;
 
-    db.on("error", err => l.error("MongoDB error:\n" + err));
+    db.on("error", (err) => l.error("MongoDB error:\n" + err));
   }
 }

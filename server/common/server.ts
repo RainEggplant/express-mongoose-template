@@ -20,7 +20,7 @@ export default class ExpressServer {
     app.use(
       express.urlencoded({
         extended: true,
-        limit: process.env.REQUEST_LIMIT || "100kb"
+        limit: process.env.REQUEST_LIMIT || "100kb",
       })
     );
     app.use(cookieParser(process.env.SESSION_SECRET));
@@ -38,10 +38,11 @@ export default class ExpressServer {
   }
 
   listen(p: string | number = process.env.PORT): Application {
-    const welcome = port => () =>
+    const welcome = (port) => () =>
       l.info(
-        `up and running in ${process.env.NODE_ENV ||
-          "development"} @: ${os.hostname()} on port: ${port}`
+        `up and running in ${
+          process.env.NODE_ENV || "development"
+        } @: ${os.hostname()} on port: ${port}`
       );
     http.createServer(app).listen(p, welcome(p));
     return app;

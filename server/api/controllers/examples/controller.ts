@@ -13,7 +13,7 @@ export class Controller {
 
   async getById(req: Request, res: Response, next: NextFunction) {
     try {
-      const doc = await ExamplesService.getById(req.params.id);
+      const doc = await ExamplesService.getById(parseInt(req.params.id));
       if (doc) {
         return res.status(200).json(doc);
       }
@@ -27,10 +27,7 @@ export class Controller {
   async create(req: Request, res: Response, next: NextFunction) {
     try {
       const doc = await ExamplesService.create(req.body);
-      return res
-        .status(201)
-        .location(`/api/v1/examples/${doc.id}`)
-        .end();
+      return res.status(201).location(`/api/v1/examples/${doc.id}`).end();
     } catch (err) {
       return next(err);
     }
