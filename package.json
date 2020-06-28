@@ -11,7 +11,8 @@
     "test": "cross-env NODE_ENV=test mocha test/**/*.ts --exit",
     "test:debug": "cross-env NODE_ENV=test mocha --inspect-brk test/**/*.ts --exit",
     "test:junit": "cross-env NODE_ENV=test mocha test/**/*.ts --reporter mocha-junit-reporter --reporter-options mochaFile=./test/test-results.xml --exit",
-    "lint": "tsc --noUnusedLocals --noEmit && prettier -c \"{server,test}/**/*.{ts,tsx,json,yaml,yml}\" --write"
+    "lint": "prettier -c \"{server,test}/**/*.{js,jsx,ts,tsx,json,css,scss,yml,yaml}\" --write",
+    "typecheck": "tsc --noUnusedLocals"
   },
   "dependencies": {
     "bluebird": "3.7.2",
@@ -19,7 +20,6 @@
     "dotenv": "8.2.0",
     "express": "4.16.4",
     "express-openapi-validator": "3.16.2",
-    "husky": "4.2.5",
     "mongoose": "5.9.20",
     "mongoose-sequence": "5.2.2",
     "morgan": "1.10.0",
@@ -35,6 +35,8 @@
     "@types/pino": "6.3.0",
     "chai": "4.2.0",
     "cross-env": "7.0.2",
+    "husky": "4.2.5",
+    "lint-staged": "10.2.11",
     "mocha": "8.0.1",
     "mocha-junit-reporter": "2.0.0",
     "nodemon": "2.0.4",
@@ -48,7 +50,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint"
+      "pre-commit": "lint-staged && yarn lint && yarn typecheck"
     }
+  },
+  "lint-staged": {
+    "{{server/**/*,test/**/*}.{js,jsx,ts,tsx,json,css,scss,yml,yaml}}": [
+      "prettier --write"
+    ]
   }
 }

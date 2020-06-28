@@ -111,8 +111,16 @@ Use the configurations in `.vscode/launch.json` file
 
 Check types and fix all linter errors
 
+Check code styles
+
 ```shell
 yarn lint
+```
+
+Check type error
+
+```
+yarn typecheck
 ```
 
 ---
