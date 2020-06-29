@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@apidevtools/json-schema-ref-parser@8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@apidevtools/json-schema-ref-parser/-/json-schema-ref-parser-8.0.0.tgz#9eb749499b3f8d919e90bb141e4b6f67aee4692d"
-  integrity sha512-n4YBtwQhdpLto1BaUCyAeflizmIbaloGShsPyRtFf5qdFJxfssj+GgLavczgKJFa3Bq+3St2CKcpRJdjtB4EBw==
+"@apidevtools/json-schema-ref-parser@9.0.1":
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/@apidevtools/json-schema-ref-parser/-/json-schema-ref-parser-9.0.1.tgz#c0ed0bd21a7397d2d7a83b69565268f2d78f2d7a"
+  integrity sha512-Qsdz0W0dyK84BuBh5KZATWXOtVDXIF2EeNRzpyWblPUeAmnIokwWcwrpAm5pTPMjuWoIQt9C67X3Af1OlL6oSw==
   dependencies:
-    "@jsdevtools/ono" "^7.1.0"
+    "@jsdevtools/ono" "^7.1.2"
     call-me-maybe "^1.0.1"
     js-yaml "^3.13.1"
 
@@ -37,7 +37,7 @@
   resolved "https://registry.yarnpkg.com/@hapi/bourne/-/bourne-2.0.0.tgz#5bb2193eb685c0007540ca61d166d4e1edaf918d"
   integrity sha512-WEezM1FWztfbzqIUbsDzFRVMxSoLy3HugVcux6KDDtTqzPsLE8NDRHfXvev66aH1i2oOKKar3/XDjbvh/OUBdg==
 
-"@jsdevtools/ono@7.1.2", "@jsdevtools/ono@^7.1.0":
+"@jsdevtools/ono@7.1.2", "@jsdevtools/ono@^7.1.2":
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/@jsdevtools/ono/-/ono-7.1.2.tgz#373995bb40a6686589a7fcfec06b0e6e304ef6c6"
   integrity sha512-qS/a24RA5FEoiJS9wiv6Pwg2c/kiUo3IVUQcfeM9JvsR6pM8Yx+yl/6xWYLckZCT5jpLNhslgjiA8p/XcGyMRQ==
@@ -791,7 +791,7 @@ dateformat@^3.0.3:
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-3.0.3.tgz#a6e37499a4d9a9cf85ef5872044d62901c9889ae"
   integrity sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==
 
-deasync@^0.1.19:
+deasync@^0.1.20:
   version "0.1.20"
   resolved "https://registry.yarnpkg.com/deasync/-/deasync-0.1.20.tgz#546fd2660688a1eeed55edce2308c5cf7104f9da"
   integrity sha512-E1GI7jMI57hL30OX6Ht/hfQU8DO4AuB9m72WFm4c38GNbUD4Q03//XZaOIHZiY+H1xUaomcot5yk2q/qIZQkGQ==
@@ -1048,15 +1048,15 @@ execa@^4.0.1:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-express-openapi-validator@3.16.2:
-  version "3.16.2"
-  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.16.2.tgz#68a323040db6caf7ef4c5e204ff7fe67922fa093"
-  integrity sha512-LZRiVH79PGae4+uB0EkvcUGv6R7syc0d4s6lUHgPVkjsX1/9qtUT440BSB1S/MvaMNg3RzTOcIjENhnqUj2WYw==
+express-openapi-validator@3.16.4:
+  version "3.16.4"
+  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.16.4.tgz#e2ab4002970fa5fb89f73428b1efe3606f4c985b"
+  integrity sha512-69lLYPRvZ97ods94dccqj0Bn3HCcyW1YX4Wb3HbmFqizDHd1L+Mnwx3R2RyXunm1w2OocDj2MyiDyV4R2ViOnQ==
   dependencies:
     ajv "^6.12.2"
     content-type "^1.0.4"
     js-yaml "^3.14.0"
-    json-schema-ref-parser "^8.0.0"
+    json-schema-ref-parser "^9.0.1"
     lodash.merge "^4.6.2"
     lodash.uniq "^4.5.0"
     lodash.zipobject "^4.1.3"
@@ -1065,7 +1065,7 @@ express-openapi-validator@3.16.2:
     ono "^7.1.2"
     path-to-regexp "^6.1.0"
   optionalDependencies:
-    deasync "^0.1.19"
+    deasync "^0.1.20"
 
 express@4.17.1:
   version "4.17.1"
@@ -1685,12 +1685,12 @@ json-parse-better-errors@^1.0.1:
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==
 
-json-schema-ref-parser@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/json-schema-ref-parser/-/json-schema-ref-parser-8.0.0.tgz#7c758fac2cf822c05e837abd0a13f8fa2c15ffd4"
-  integrity sha512-2P4icmNkZLrBr6oa5gSZaDSol/oaBHYkoP/8dsw63E54NnHGRhhiFuy9yFoxPuSm+uHKmeGxAAWMDF16SCHhcQ==
+json-schema-ref-parser@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/json-schema-ref-parser/-/json-schema-ref-parser-9.0.1.tgz#3c1fd01c159e3e6016190284752dcda93f8ea5b0"
+  integrity sha512-KLrCjRjW5hMXxsX4osVBWpwixXL9NtICfpyNNS0eHguN5mP/I4UatI7i7PFS8jU94b1NHF4EbirACdCn0RFPBA==
   dependencies:
-    "@apidevtools/json-schema-ref-parser" "8.0.0"
+    "@apidevtools/json-schema-ref-parser" "9.0.1"
 
 json-schema-traverse@^0.4.1:
   version "0.4.1"
