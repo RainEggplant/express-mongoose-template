@@ -2004,10 +2004,10 @@ mongoose-sequence@5.2.2:
     async "^2.5.0"
     lodash "^4.17.11"
 
-mongoose@5.9.22:
-  version "5.9.22"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.9.22.tgz#4f1542f037a552b43f547ebfc72ddaf9f88c5ecf"
-  integrity sha512-nwH2LwrGN/jR0Qi8TqSog0MWZRtxdpQxVFcPNjs+CUyCMaxKqFJYrkPILTPKPMMzwrAv1cCQqrvoLl+ggklvbg==
+mongoose@5.9.23:
+  version "5.9.23"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.9.23.tgz#cb16687fbd19082bbbf0b8fab4778e2e4d85e7b1"
+  integrity sha512-fMYlMRJz0T6Ax2K2P0jt+kxXd4qaRxyfZCha1YBMczmA2EBlT5SnBlcDyJ4YQa4/z+GoDh06uH090w7BfBcdWg==
   dependencies:
     bson "^1.1.4"
     kareem "2.3.1"
