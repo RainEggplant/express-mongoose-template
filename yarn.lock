@@ -2315,10 +2315,10 @@ picomatch@^2.0.4, picomatch@^2.0.5, picomatch@^2.0.7, picomatch@^2.2.1:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
   integrity sha512-q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==
 
-pino-pretty@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/pino-pretty/-/pino-pretty-4.0.1.tgz#a816ac530d99581295f3f7a92e238e5152ad04ec"
-  integrity sha512-qGMLBVKX+xSnxkmUiiZfaoEZD7KWdt/wZK6BAQYdGvNrl7DFqrc10Jmng57NhX3hm+3kNCEtvcFIEXMF+IbStg==
+pino-pretty@4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/pino-pretty/-/pino-pretty-4.0.2.tgz#b0496e486ac70ddc0bafafafc9d80e3f377a0135"
+  integrity sha512-kFeuzCHfXhWaXxUoBByzFnu7vCalrc+qEU/lJIqf29i5pEJ3oF/zbJRaAwHTgNgyOky5+jtdTF/RxF8gFbYFtA==
   dependencies:
     "@hapi/bourne" "^2.0.0"
     args "^5.0.1"
