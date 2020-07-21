@@ -215,10 +215,10 @@ aggregate-error@^3.0.0:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
 
-ajv@^6.12.2:
-  version "6.12.2"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.2.tgz#c629c5eced17baf314437918d2da88c99d5958cd"
-  integrity sha512-k+V+hzjm5q/Mr8ef/1Y9goCmlsK4I6Sm74teeyGvFk1XrOsbsKLjEdrvny42CZ+a8sXbk8KWpY/bDwS+FLL2UQ==
+ajv@^6.12.3:
+  version "6.12.3"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.3.tgz#18c5af38a111ddeb4f2697bd78d68abc1cabd706"
+  integrity sha512-4K0cK3L1hsqk9xIb2z9vs/XU+PGJZ9PNpJRDS9YLzmNdX6jmVPfamLvTJr0aDAusnHyCHO6MjzlkAsgtqp9teA==
   dependencies:
     fast-deep-equal "^3.1.1"
     fast-json-stable-stringify "^2.0.0"
@@ -1049,12 +1049,12 @@ execa@^4.0.1:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-express-openapi-validator@3.16.6:
-  version "3.16.6"
-  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.16.6.tgz#6a6b44f1674b4dd5d560c34a4fc52ba7403bff2d"
-  integrity sha512-qF6puyw9HaDH6EdyZJiB4f8zzqyVZpOTf4+fLC6gFKbgW0mvTc+OtXVt8LhoNc3Og6orpfUkDubRJYhiKfzR7Q==
+express-openapi-validator@3.16.7:
+  version "3.16.7"
+  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.16.7.tgz#7d46a4e6caf2707f2e44d5c15303ec91113e8d23"
+  integrity sha512-HVQLpuq9uhHP02e4DDL6z8AR/GoEE/xPQIA6E+bNon6CrSJ9qosgxSDiitHnMQXWx1oT7EMSaFsXeBfFGiRRJw==
   dependencies:
-    ajv "^6.12.2"
+    ajv "^6.12.3"
     content-type "^1.0.4"
     js-yaml "^3.14.0"
     json-schema-ref-parser "^9.0.1"
