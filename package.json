@@ -23,7 +23,7 @@
     "mongoose": "5.9.27",
     "mongoose-sequence": "5.2.2",
     "morgan": "1.10.0",
-    "pino": "6.4.1"
+    "pino": "6.5.0"
   },
   "devDependencies": {
     "@types/bluebird": "3.5.32",
