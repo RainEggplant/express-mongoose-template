@@ -37,12 +37,7 @@
   resolved "https://registry.yarnpkg.com/@hapi/bourne/-/bourne-2.0.0.tgz#5bb2193eb685c0007540ca61d166d4e1edaf918d"
   integrity sha512-WEezM1FWztfbzqIUbsDzFRVMxSoLy3HugVcux6KDDtTqzPsLE8NDRHfXvev66aH1i2oOKKar3/XDjbvh/OUBdg==
 
-"@jsdevtools/ono@7.1.2":
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/@jsdevtools/ono/-/ono-7.1.2.tgz#373995bb40a6686589a7fcfec06b0e6e304ef6c6"
-  integrity sha512-qS/a24RA5FEoiJS9wiv6Pwg2c/kiUo3IVUQcfeM9JvsR6pM8Yx+yl/6xWYLckZCT5jpLNhslgjiA8p/XcGyMRQ==
-
-"@jsdevtools/ono@^7.1.3":
+"@jsdevtools/ono@7.1.3", "@jsdevtools/ono@^7.1.3":
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/@jsdevtools/ono/-/ono-7.1.3.tgz#9df03bbd7c696a5c58885c34aa06da41c8543796"
   integrity sha512-4JQNk+3mVzK3xh2rqd6RB4J46qUR19azEHBneZyTZM+c456qOrbbM/5xcR8huNCCcbVt7+UmizG6GuUvPvKUYg==
@@ -1054,21 +1049,21 @@ execa@^4.0.1:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-express-openapi-validator@3.16.8:
-  version "3.16.8"
-  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.16.8.tgz#0c797ca70eabb700a2405d3c6560945915aa9e2f"
-  integrity sha512-eZCCWNVcfQwqTaJ0idH4VqbM+WPNuxLw3pHyYj3S4j4TwM4YAYQ+WGI9bUs38TJudK9aSltb9dbengDxdd0iXg==
+express-openapi-validator@3.16.9:
+  version "3.16.9"
+  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.16.9.tgz#01c737d7f8b9981725c62f74e812445fddcc6d07"
+  integrity sha512-pJ+pxaCrFToSqFmDhnHZMTVEg4TcWKfLdnhc+97fuIvDkuV8V8dyGYDEQdHWc8efZzb4S0ovmc1dkcwA2G95AQ==
   dependencies:
     ajv "^6.12.3"
     content-type "^1.0.4"
     js-yaml "^3.14.0"
-    json-schema-ref-parser "^9.0.3"
+    json-schema-ref-parser "^9.0.5"
     lodash.merge "^4.6.2"
     lodash.uniq "^4.5.0"
     lodash.zipobject "^4.1.3"
     media-typer "^1.1.0"
     multer "^1.4.2"
-    ono "^7.1.2"
+    ono "^7.1.3"
     path-to-regexp "^6.1.0"
   optionalDependencies:
     deasync "^0.1.20"
@@ -1696,7 +1691,7 @@ json-parse-better-errors@^1.0.1:
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==
 
-json-schema-ref-parser@^9.0.3:
+json-schema-ref-parser@^9.0.5:
   version "9.0.6"
   resolved "https://registry.yarnpkg.com/json-schema-ref-parser/-/json-schema-ref-parser-9.0.6.tgz#fc89a5e6b853f2abe8c0af30d3874196526adb60"
   integrity sha512-z0JGv7rRD3CnJbZY/qCpscyArdtLJhr/wRBmFUdoZ8xMjsFyNdILSprG2degqRLjBjyhZHAEBpGOxniO9rKTxA==
@@ -2193,12 +2188,12 @@ onetime@^5.1.0:
   dependencies:
     mimic-fn "^2.1.0"
 
-ono@^7.1.2:
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/ono/-/ono-7.1.2.tgz#8f2370f414413dca06419cae11e2b4645e5f1ed5"
-  integrity sha512-es7Gfr+OGNFwiYpyHCLgBF+p/RA0qYbWysQKlZbLvvUBis5BygEs8TVJ4r+SgHDfagOgONhaAl6Y4JLy++0MTw==
+ono@^7.1.3:
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/ono/-/ono-7.1.3.tgz#a054e96a388f566a6c4c95e1e92b9b253722d286"
+  integrity sha512-9jnfVriq7uJM4o5ganUY54ntUm+5EK21EGaQ5NWnkWg3zz5ywbbonlBguRcnmF1/HDiIe3zxNxXcO1YPBmPcQQ==
   dependencies:
-    "@jsdevtools/ono" "7.1.2"
+    "@jsdevtools/ono" "7.1.3"
 
 opencollective-postinstall@^2.0.2:
   version "2.0.3"
