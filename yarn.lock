@@ -1049,15 +1049,15 @@ execa@^4.0.1:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-express-openapi-validator@3.16.9:
-  version "3.16.9"
-  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.16.9.tgz#01c737d7f8b9981725c62f74e812445fddcc6d07"
-  integrity sha512-pJ+pxaCrFToSqFmDhnHZMTVEg4TcWKfLdnhc+97fuIvDkuV8V8dyGYDEQdHWc8efZzb4S0ovmc1dkcwA2G95AQ==
+express-openapi-validator@3.16.10:
+  version "3.16.10"
+  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.16.10.tgz#30f04445d02db8041a13ef6844b8a708fa33c0da"
+  integrity sha512-YJjoVqDqUTgQlehhtQkcLpvoOMXJHsqmnCR3vBhwnxlQNedvNACwRGeosGP6eK6D4wUN189KA6dOs6GgglI+4A==
   dependencies:
     ajv "^6.12.3"
     content-type "^1.0.4"
     js-yaml "^3.14.0"
-    json-schema-ref-parser "^9.0.5"
+    json-schema-ref-parser "^9.0.6"
     lodash.merge "^4.6.2"
     lodash.uniq "^4.5.0"
     lodash.zipobject "^4.1.3"
@@ -1691,7 +1691,7 @@ json-parse-better-errors@^1.0.1:
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==
 
-json-schema-ref-parser@^9.0.5:
+json-schema-ref-parser@^9.0.6:
   version "9.0.6"
   resolved "https://registry.yarnpkg.com/json-schema-ref-parser/-/json-schema-ref-parser-9.0.6.tgz#fc89a5e6b853f2abe8c0af30d3874196526adb60"
   integrity sha512-z0JGv7rRD3CnJbZY/qCpscyArdtLJhr/wRBmFUdoZ8xMjsFyNdILSprG2degqRLjBjyhZHAEBpGOxniO9rKTxA==
