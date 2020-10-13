@@ -21,7 +21,7 @@
     "express": "4.17.1",
     "express-openapi-validator": "3.17.2",
     "mongoose": "5.10.9",
-    "mongoose-sequence": "5.2.2",
+    "mongoose-sequence": "5.3.0",
     "morgan": "1.10.0",
     "pino": "6.7.0"
   },
