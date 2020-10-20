@@ -1955,10 +1955,10 @@ node-addon-api@^1.7.1:
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-1.7.2.tgz#3df30b95720b53c24e59948b49532b662444f54d"
   integrity sha512-ibPK3iA+vaY1eEjESkQkM0BbCqFOaZMiXRTtdB0u7b4djtY6JnsjvPdUHVMg6xQt3B8fpTTWHI9A+ADjM9frzg==
 
-nodemon@2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-2.0.5.tgz#df67fe1fd1312ddb0c1e393ae2cf55aacdcec2f3"
-  integrity sha512-6/jqtZvJdk092pVnD2AIH19KQ9GQZAKOZVy/yT1ueL6aoV+Ix7a1lVZStXzvEh0fP4zE41DDWlkVoHjR6WlozA==
+nodemon@2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-2.0.6.tgz#1abe1937b463aaf62f0d52e2b7eaadf28cc2240d"
+  integrity sha512-4I3YDSKXg6ltYpcnZeHompqac4E6JeAMpGm8tJnB9Y3T0ehasLa4139dJOcCrB93HHrUMsCrKtoAlXTqT5n4AQ==
   dependencies:
     chokidar "^3.2.2"
     debug "^3.2.6"
