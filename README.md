@@ -18,8 +18,11 @@ yarn dev
 # run tests
 yarn test
 
-# check types and fix all linter errors
+# check code styles
 yarn lint
+
+# check type errors
+yarn typecheck
 ```
 
 ---
@@ -113,6 +116,7 @@ Check code styles
 
 ```shell
 yarn lint
+yarn lint:fix  # fix linter errors as well
 ```
 
 Check type error
