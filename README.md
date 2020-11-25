@@ -1,8 +1,6 @@
 # express-mongoose-template
 
-[![Build Status](https://raineggplant.visualstudio.com/express-mongoose-template/_apis/build/status/RainEggplant.express-mongoose-template?branchName=master)](https://raineggplant.visualstudio.com/express-mongoose-template/_build/latest?definitionId=2&branchName=master)
-
-express-mongoose-template
+![](https://github.com/RainEggplant/express-mongoose-template/workflows/CI/badge.svg)
 
 ## Quick Start
 
