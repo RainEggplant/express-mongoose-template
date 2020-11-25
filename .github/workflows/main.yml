@@ -28,13 +28,16 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         
+      - uses: actions/setup-node@v1
+        
       - name: Create a .env file
         run: mv .env.example .env
 
+      - name: Install dependencies
+        run: yarn
+
       - name: Transpile source code
-        run: |
-          yarn install
-          yarn compile
+        run: yarn compile
 
       - name: Run test
         run: yarn test:junit
@@ -44,4 +47,4 @@ jobs:
         if: always()
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          files: "/test/**/test-results.xml"
+          files: "test/**/test-results.xml"
