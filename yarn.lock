@@ -162,10 +162,10 @@
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-8.0.4.tgz#b840c2dce46bacf286e237bfb59a29e843399148"
   integrity sha512-M4BwiTJjHmLq6kjON7ZoI2JMlBvpY3BYSdiP6s/qCT3jb1s9/DeJF0JELpAxiVSIxXDzfNKe+r7yedMIoLbknQ==
 
-"@types/mongodb@*":
-  version "3.5.25"
-  resolved "https://registry.yarnpkg.com/@types/mongodb/-/mongodb-3.5.25.tgz#ab187db04d79f8e3f15af236327dc9139d9d4736"
-  integrity sha512-2H/Owt+pHCl9YmBOYnXc3VdnxejJEjVdH+QCWL5ZAfPehEn3evygKBX3/vKRv7aTwfNbUd0E5vjJdQklH/9a6w==
+"@types/mongodb@*", "@types/mongodb@^3.5.27":
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/@types/mongodb/-/mongodb-3.6.0.tgz#7b8f7104a50b39d155f363d9572b0e51bcdaeae8"
+  integrity sha512-5PGiTXS/tvvllyyD+LJt3bVyJixrY/ZIIJwsINnZorvJsN6gki4NH7Fhcep4MZF8HNCKNv2oWguysocS1jt9dw==
   dependencies:
     "@types/bson" "*"
     "@types/node" "*"
@@ -2234,16 +2234,17 @@ mongoose-sequence@5.3.0:
     async "^2.5.0"
     lodash "^4.17.20"
 
-mongoose@5.10.19:
-  version "5.10.19"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.10.19.tgz#a8ca94d63737cc9c002832e1aa7169ef0c156779"
-  integrity sha512-SuJwbhQpfZ6WZFM6H2v0Hv1wQNLDeBDLZwOHR3UnR6IlPLKjuLyEx4OLI0vFQihv+JWJKWqJt+LcRRbRyL9PCg==
+mongoose@5.11.4:
+  version "5.11.4"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.11.4.tgz#26c6be85bee47446570281f90331762751d8b995"
+  integrity sha512-80IyHZ1ID4dtmQAaAr1B1FO2hWxmKMqaGP4WBkZ7xDKY1WKiBxVr1j5fk+bedO/IqJWoVG4vdxQDYp7glqaKaA==
   dependencies:
+    "@types/mongodb" "^3.5.27"
     bson "^1.1.4"
     kareem "2.3.1"
     mongodb "3.6.3"
     mongoose-legacy-pluralize "1.0.2"
-    mpath "0.7.0"
+    mpath "0.8.0"
     mquery "3.2.2"
     ms "2.1.2"
     regexp-clone "1.0.0"
@@ -2262,10 +2263,10 @@ morgan@1.10.0:
     on-finished "~2.3.0"
     on-headers "~1.0.2"
 
-mpath@0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/mpath/-/mpath-0.7.0.tgz#20e8102e276b71709d6e07e9f8d4d0f641afbfb8"
-  integrity sha512-Aiq04hILxhz1L+f7sjGyn7IxYzWm1zLNNXcfhDtx04kZ2Gk7uvFdgZ8ts1cWa/6d0TQmag2yR8zSGZUmp0tFNg==
+mpath@0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/mpath/-/mpath-0.8.0.tgz#48bc1da84e75519d4d74ee6242a4a7e16b4e1997"
+  integrity sha512-slIifXzF6pBxKpPV47ScgqWfGgkpwZNy55fY/umDrgmAxjWMz/WYzYsd8cThU49kw0rLyPWTZaWrOlazaeW57Q==
 
 mquery@3.2.2:
   version "3.2.2"
