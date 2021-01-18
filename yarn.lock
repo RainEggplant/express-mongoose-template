@@ -1275,10 +1275,10 @@ execa@^4.1.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-express-openapi-validator@4.10.6:
-  version "4.10.6"
-  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-4.10.6.tgz#20a7e883e018be468c9b2492b5e6d42f2b8105b4"
-  integrity sha512-gxoHcbfEEjG39ZYgqKrqTu1QqvPWB4cXN2D2gCQQwGzai3KDBCT83rmsAXDjeoVtM74JVq5F+Qirmx6zofY53A==
+express-openapi-validator@4.10.8:
+  version "4.10.8"
+  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-4.10.8.tgz#80f2e4c39d3c8e9203b2a7c79801bd573c9e2e9d"
+  integrity sha512-PF40cfxOlPWgMBTquLP8v3JCP8HF6QMLl5i4LbTqncowZRF1gcQVShxSu7hRRSS2chkOQaLSYWYxQVt8ZTeBlA==
   dependencies:
     ajv "^6.12.6"
     content-type "^1.0.4"
