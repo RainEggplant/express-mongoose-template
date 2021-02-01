@@ -34,7 +34,7 @@
     "@types/mongoose": "5.10.3",
     "@types/morgan": "1.9.2",
     "@types/pino": "6.3.5",
-    "@typescript-eslint/eslint-plugin": "4.14.1",
+    "@typescript-eslint/eslint-plugin": "4.14.2",
     "@typescript-eslint/parser": "4.14.1",
     "chai": "4.2.0",
     "cross-env": "7.0.3",
