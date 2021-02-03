@@ -137,6 +137,25 @@
     "@types/qs" "*"
     "@types/range-parser" "*"
 
+"@types/express-serve-static-core@^4.17.18":
+  version "4.17.18"
+  resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.17.18.tgz#8371e260f40e0e1ca0c116a9afcd9426fa094c40"
+  integrity sha512-m4JTwx5RUBNZvky/JJ8swEJPKFd8si08pPF2PfizYjGZOKr/svUWPcoUmLow6MmPzhasphB7gSTINY67xn3JNA==
+  dependencies:
+    "@types/node" "*"
+    "@types/qs" "*"
+    "@types/range-parser" "*"
+
+"@types/express@*":
+  version "4.17.11"
+  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.11.tgz#debe3caa6f8e5fcda96b47bd54e2f40c4ee59545"
+  integrity sha512-no+R6rW60JEc59977wIxreQVsIEOAYwgCqldrA/vkpCnbD7MqTefO97lmoBe4WE0F156bC4uLSP1XHDOySnChg==
+  dependencies:
+    "@types/body-parser" "*"
+    "@types/express-serve-static-core" "^4.17.18"
+    "@types/qs" "*"
+    "@types/serve-static" "*"
+
 "@types/express@4.17.7":
   version "4.17.7"
   resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.7.tgz#42045be6475636d9801369cd4418ef65cdb0dd59"
@@ -184,6 +203,13 @@
   integrity sha512-edtGMEdit146JwwIeyQeHHg9yID4WSolQPxpEorHmN3KuytuCHyn2ELNr5Uxy8SerniFbbkmgKMrGM933am5BQ==
   dependencies:
     "@types/node" "*"
+
+"@types/multer@^1.4.5":
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/@types/multer/-/multer-1.4.5.tgz#db0557562307e9adb6661a9500c334cd7ddd0cd9"
+  integrity sha512-9b/0a8JyrR0r2nQhL73JR86obWL7cogfX12augvlrvcpciCo/hkvEsgu80Z4S2g2DHGVXHr8pUIi1VhqFJ8Ufw==
+  dependencies:
+    "@types/express" "*"
 
 "@types/node@*":
   version "14.0.14"
@@ -1240,11 +1266,12 @@ execa@^4.1.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-express-openapi-validator@4.10.8:
-  version "4.10.8"
-  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-4.10.8.tgz#80f2e4c39d3c8e9203b2a7c79801bd573c9e2e9d"
-  integrity sha512-PF40cfxOlPWgMBTquLP8v3JCP8HF6QMLl5i4LbTqncowZRF1gcQVShxSu7hRRSS2chkOQaLSYWYxQVt8ZTeBlA==
+express-openapi-validator@4.10.11:
+  version "4.10.11"
+  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-4.10.11.tgz#9486777e217d0b1834c8e7e26936ab9125e864c6"
+  integrity sha512-Pvw3O7L2b5JNj6W8EuvjTh9FAD1CqaJ8mpafKzYfvbMFJX7LlLGal60n5VTjjtci45gkaJMVNrj6nBu0h/2y4g==
   dependencies:
+    "@types/multer" "^1.4.5"
     ajv "^6.12.6"
     content-type "^1.0.4"
     json-schema-ref-parser "^9.0.6"
