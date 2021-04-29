@@ -1,0 +1,40 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "21:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: mongoose
+    versions:
+    - 5.11.13
+    - 5.11.14
+    - 5.11.15
+    - 5.11.16
+    - 5.11.17
+    - 5.11.18
+    - 5.11.19
+    - 5.12.0
+    - 5.12.1
+    - 5.12.2
+    - 5.12.3
+    - 5.12.5
+  - dependency-name: express-openapi-validator
+    versions:
+    - 4.10.11
+    - 4.10.9
+    - 4.11.0
+    - 4.12.0
+    - 4.12.1
+    - 4.12.4
+    - 4.12.5
+    - 4.12.6
+    - 4.12.7
+  - dependency-name: "@typescript-eslint/parser"
+    versions:
+    - 4.18.0
+  - dependency-name: "@typescript-eslint/eslint-plugin"
+    versions:
+    - 4.18.0
