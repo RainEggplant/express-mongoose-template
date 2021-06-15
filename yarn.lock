@@ -2,14 +2,15 @@
 # yarn lockfile v1
 
 
-"@apidevtools/json-schema-ref-parser@9.0.6":
-  version "9.0.6"
-  resolved "https://registry.yarnpkg.com/@apidevtools/json-schema-ref-parser/-/json-schema-ref-parser-9.0.6.tgz#5d9000a3ac1fd25404da886da6b266adcd99cf1c"
-  integrity sha512-M3YgsLjI0lZxvrpeGVk9Ap032W6TPQkH6pRAZz81Ac3WUNF79VQooAFnp8umjvVzUmD93NkogxEwbSce7qMsUg==
+"@apidevtools/json-schema-ref-parser@9.0.9":
+  version "9.0.9"
+  resolved "https://registry.yarnpkg.com/@apidevtools/json-schema-ref-parser/-/json-schema-ref-parser-9.0.9.tgz#d720f9256e3609621280584f2b47ae165359268b"
+  integrity sha512-GBD2Le9w2+lVFoc4vswGI/TjkNIZSVp7+9xPf+X3uidBfWnAeUWmquteSyt0+VCrhNMWj/FTABISQrD3Z/YA+w==
   dependencies:
     "@jsdevtools/ono" "^7.1.3"
+    "@types/json-schema" "^7.0.6"
     call-me-maybe "^1.0.1"
-    js-yaml "^3.13.1"
+    js-yaml "^4.1.0"
 
 "@babel/code-frame@7.12.11", "@babel/code-frame@^7.0.0":
   version "7.12.11"
@@ -136,6 +137,25 @@
     "@types/qs" "*"
     "@types/range-parser" "*"
 
+"@types/express-serve-static-core@^4.17.18":
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.17.21.tgz#a427278e106bca77b83ad85221eae709a3414d42"
+  integrity sha512-gwCiEZqW6f7EoR8TTEfalyEhb1zA5jQJnRngr97+3pzMaO1RKoI1w2bw07TK72renMUVWcWS5mLI6rk1NqN0nA==
+  dependencies:
+    "@types/node" "*"
+    "@types/qs" "*"
+    "@types/range-parser" "*"
+
+"@types/express@*":
+  version "4.17.12"
+  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.12.tgz#4bc1bf3cd0cfe6d3f6f2853648b40db7d54de350"
+  integrity sha512-pTYas6FrP15B1Oa0bkN5tQMNqOcVXa9j4FTFtO8DWI9kppKib+6NJtfTOOLcwxuuYvcX2+dVG6et1SxW/Kc17Q==
+  dependencies:
+    "@types/body-parser" "*"
+    "@types/express-serve-static-core" "^4.17.18"
+    "@types/qs" "*"
+    "@types/serve-static" "*"
+
 "@types/express@4.17.7":
   version "4.17.7"
   resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.7.tgz#42045be6475636d9801369cd4418ef65cdb0dd59"
@@ -146,7 +166,7 @@
     "@types/qs" "*"
     "@types/serve-static" "*"
 
-"@types/json-schema@^7.0.7":
+"@types/json-schema@^7.0.6", "@types/json-schema@^7.0.7":
   version "7.0.7"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.7.tgz#98a993516c859eb0d5c4c8f098317a9ea68db9ad"
   integrity sha512-cxWFQVseBm6O9Gbw1IWb8r6OS4OhSt3hPZLkFApLjM8TEXROBuQGLAH2i2gZpcXdLBIrpXuTDhH7Vbm1iXmNGA==
@@ -182,6 +202,13 @@
   integrity sha512-edtGMEdit146JwwIeyQeHHg9yID4WSolQPxpEorHmN3KuytuCHyn2ELNr5Uxy8SerniFbbkmgKMrGM933am5BQ==
   dependencies:
     "@types/node" "*"
+
+"@types/multer@^1.4.5":
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/@types/multer/-/multer-1.4.5.tgz#db0557562307e9adb6661a9500c334cd7ddd0cd9"
+  integrity sha512-9b/0a8JyrR0r2nQhL73JR86obWL7cogfX12augvlrvcpciCo/hkvEsgu80Z4S2g2DHGVXHr8pUIi1VhqFJ8Ufw==
+  dependencies:
+    "@types/express" "*"
 
 "@types/node@*", "@types/node@^15.3.0":
   version "15.6.1"
@@ -1262,14 +1289,15 @@ execa@^5.0.0:
     signal-exit "^3.0.3"
     strip-final-newline "^2.0.0"
 
-express-openapi-validator@4.10.8:
-  version "4.10.8"
-  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-4.10.8.tgz#80f2e4c39d3c8e9203b2a7c79801bd573c9e2e9d"
-  integrity sha512-PF40cfxOlPWgMBTquLP8v3JCP8HF6QMLl5i4LbTqncowZRF1gcQVShxSu7hRRSS2chkOQaLSYWYxQVt8ZTeBlA==
+express-openapi-validator@4.12.11:
+  version "4.12.11"
+  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-4.12.11.tgz#0d84b7f9c9c7cc64c916258e2e06c6d9fd1a2d7d"
+  integrity sha512-j9nQYa69F191BJi2gQc47HYA7hLMfhj9K9T6zr6bn0GiQKJUtRr80XKP+baGRNeAb2e0CfL3OpUXTsf1pDkYvg==
   dependencies:
+    "@types/multer" "^1.4.5"
     ajv "^6.12.6"
     content-type "^1.0.4"
-    json-schema-ref-parser "^9.0.6"
+    json-schema-ref-parser "^9.0.7"
     lodash.clonedeep "^4.5.0"
     lodash.get "^4.4.2"
     lodash.uniq "^4.5.0"
@@ -1863,6 +1891,13 @@ js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
+js-yaml@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.0.tgz#c1fb65f8f5017901cdd2c951864ba18458a10602"
+  integrity sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==
+  dependencies:
+    argparse "^2.0.1"
+
 json-buffer@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/json-buffer/-/json-buffer-3.0.0.tgz#5b1f397afc75d677bde8bcfc0e47e1f9a3d9a898"
@@ -1873,12 +1908,12 @@ json-parse-better-errors@^1.0.1:
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==
 
-json-schema-ref-parser@^9.0.6:
-  version "9.0.6"
-  resolved "https://registry.yarnpkg.com/json-schema-ref-parser/-/json-schema-ref-parser-9.0.6.tgz#fc89a5e6b853f2abe8c0af30d3874196526adb60"
-  integrity sha512-z0JGv7rRD3CnJbZY/qCpscyArdtLJhr/wRBmFUdoZ8xMjsFyNdILSprG2degqRLjBjyhZHAEBpGOxniO9rKTxA==
+json-schema-ref-parser@^9.0.7:
+  version "9.0.9"
+  resolved "https://registry.yarnpkg.com/json-schema-ref-parser/-/json-schema-ref-parser-9.0.9.tgz#66ea538e7450b12af342fa3d5b8458bc1e1e013f"
+  integrity sha512-qcP2lmGy+JUoQJ4DOQeLaZDqH9qSkeGCK3suKWxJXS82dg728Mn3j97azDMaOUmJAN4uCq91LdPx4K7E8F1a7Q==
   dependencies:
-    "@apidevtools/json-schema-ref-parser" "9.0.6"
+    "@apidevtools/json-schema-ref-parser" "9.0.9"
 
 json-schema-traverse@^0.4.1:
   version "0.4.1"
